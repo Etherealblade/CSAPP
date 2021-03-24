@@ -13,5 +13,5 @@
 
 This repo includes almost every code of CSAPP
 
-I've written all these codes in vs2017 + VMware, most projects contain csapp.h & csapp.cpp so that it can works properly but kind of verbose.
+I've written all these codes in vs2017 + VMware, most projects contain csapp.h & csapp.cpp so that they can work properly but kind of verbose.
 Besides, some projects in chapter 12 involving pthread might not run properly, solution is in the Readme.docx.
