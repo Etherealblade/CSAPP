@@ -8,4 +8,4 @@
 
 ======================= EN ==================
 
-This repo includes almost every codes of CSAPP
+This repo includes almost every code of CSAPP
