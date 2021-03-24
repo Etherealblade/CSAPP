@@ -1,0 +1,579 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.191.136'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Linking objects
+csapp.cpp : error : In function ‘pid_t Fork()’:
+csapp.cpp(75): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(75): error :    unix_error("Fork error");
+csapp.cpp(75): error :                           ^
+csapp.cpp : error : In function ‘void Execve(const char*, char* const*, char* const*)’:
+csapp.cpp(83): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(83): error :    unix_error("Execve error");
+csapp.cpp(83): error :                             ^
+csapp.cpp : error : In function ‘pid_t Wait(int*)’:
+csapp.cpp(92): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(92): error :    unix_error("Wait error");
+csapp.cpp(92): error :                           ^
+csapp.cpp : error : In function ‘pid_t Waitpid(pid_t, int*, int)’:
+csapp.cpp(102): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(102): error :    unix_error("Waitpid error");
+csapp.cpp(102): error :                              ^
+csapp.cpp : error : In function ‘void Kill(pid_t, int)’:
+csapp.cpp(112): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(112): error :    unix_error("Kill error");
+csapp.cpp(112): error :                           ^
+csapp.cpp : error : In function ‘unsigned int Sleep(unsigned int)’:
+csapp.cpp(127): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(127): error :    unix_error("Sleep error");
+csapp.cpp(127): error :                            ^
+csapp.cpp : error : In function ‘void Setpgid(pid_t, pid_t)’:
+csapp.cpp(139): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(139): error :    unix_error("Setpgid error");
+csapp.cpp(139): error :                              ^
+csapp.cpp : error : In function ‘void (* Signal(int, void (*)(int)))(int)’:
+csapp.cpp(161): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(161): error :    unix_error("Signal error");
+csapp.cpp(161): error :                             ^
+csapp.cpp : error : In function ‘void Sigprocmask(int, const sigset_t*, sigset_t*)’:
+csapp.cpp(169): error : 33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(169): error :    unix_error("Sigprocmask error");
+csapp.cpp(169): error :                                  ^
+csapp.cpp : error : In function ‘void Sigemptyset(sigset_t*)’:
+csapp.cpp(176): error : 33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(176): error :    unix_error("Sigemptyset error");
+csapp.cpp(176): error :                                  ^
+csapp.cpp : error : In function ‘void Sigfillset(sigset_t*)’:
+csapp.cpp(183): error : 32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(183): error :    unix_error("Sigfillset error");
+csapp.cpp(183): error :                                 ^
+csapp.cpp : error : In function ‘void Sigaddset(sigset_t*, int)’:
+csapp.cpp(190): error : 31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(190): error :    unix_error("Sigaddset error");
+csapp.cpp(190): error :                                ^
+csapp.cpp : error : In function ‘void Sigdelset(sigset_t*, int)’:
+csapp.cpp(197): error : 31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(197): error :    unix_error("Sigdelset error");
+csapp.cpp(197): error :                                ^
+csapp.cpp : error : In function ‘int Sigismember(const sigset_t*, int)’:
+csapp.cpp(205): error : 33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(205): error :    unix_error("Sigismember error");
+csapp.cpp(205): error :                                  ^
+csapp.cpp : error : In function ‘int Sigsuspend(const sigset_t*)’:
+csapp.cpp(213): error : 32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(213): error :    unix_error("Sigsuspend error");
+csapp.cpp(213): error :                                 ^
+csapp.cpp : error : In function ‘ssize_t Sio_putl(long int)’:
+csapp.cpp(299): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(299): error :    sio_error("Sio_putl error");
+csapp.cpp(299): error :                              ^
+csapp.cpp : error : In function ‘ssize_t Sio_puts(char*)’:
+csapp.cpp(308): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(308): error :    sio_error("Sio_puts error");
+csapp.cpp(308): error :                              ^
+csapp.cpp : error : In function ‘int Open(const char*, int, mode_t)’:
+csapp.cpp(326): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(326): error :    unix_error("Open error");
+csapp.cpp(326): error :                           ^
+csapp.cpp : error : In function ‘ssize_t Read(int, void*, size_t)’:
+csapp.cpp(335): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(335): error :    unix_error("Read error");
+csapp.cpp(335): error :                           ^
+csapp.cpp : error : In function ‘ssize_t Write(int, const void*, size_t)’:
+csapp.cpp(344): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(344): error :    unix_error("Write error");
+csapp.cpp(344): error :                            ^
+csapp.cpp : error : In function ‘off_t Lseek(int, off_t, int)’:
+csapp.cpp(353): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(353): error :    unix_error("Lseek error");
+csapp.cpp(353): error :                            ^
+csapp.cpp : error : In function ‘void Close(int)’:
+csapp.cpp(362): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(362): error :    unix_error("Close error");
+csapp.cpp(362): error :                            ^
+csapp.cpp : error : In function ‘int Select(int, fd_set*, fd_set*, fd_set*, timeval*)’:
+csapp.cpp(371): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(371): error :    unix_error("Select error");
+csapp.cpp(371): error :                             ^
+csapp.cpp : error : In function ‘int Dup2(int, int)’:
+csapp.cpp(380): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(380): error :    unix_error("Dup2 error");
+csapp.cpp(380): error :                           ^
+csapp.cpp : error : In function ‘void Stat(const char*, stat*)’:
+csapp.cpp(387): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(387): error :    unix_error("Stat error");
+csapp.cpp(387): error :                           ^
+csapp.cpp : error : In function ‘void Fstat(int, stat*)’:
+csapp.cpp(393): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(393): error :    unix_error("Fstat error");
+csapp.cpp(393): error :                            ^
+csapp.cpp : error : In function ‘DIR* Opendir(const char*)’:
+csapp.cpp(405): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(405): error :    unix_error("opendir error");
+csapp.cpp(405): error :                              ^
+csapp.cpp : error : In function ‘dirent* Readdir(DIR*)’:
+csapp.cpp(416): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(416): error :    unix_error("readdir error");
+csapp.cpp(416): error :                              ^
+csapp.cpp : error : In function ‘int Closedir(DIR*)’:
+csapp.cpp(425): error : 30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(425): error :    unix_error("closedir error");
+csapp.cpp(425): error :                               ^
+csapp.cpp : error : In function ‘void* Mmap(void*, size_t, int, int, int, off_t)’:
+csapp.cpp(437): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(437): error :    unix_error("mmap error");
+csapp.cpp(437): error :                           ^
+csapp.cpp : error : In function ‘void Munmap(void*, size_t)’:
+csapp.cpp(444): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(444): error :    unix_error("munmap error");
+csapp.cpp(444): error :                             ^
+csapp.cpp : error : In function ‘void* Malloc(size_t)’:
+csapp.cpp(456): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(456): error :    unix_error("Malloc error");
+csapp.cpp(456): error :                             ^
+csapp.cpp : error : In function ‘void* Realloc(void*, size_t)’:
+csapp.cpp(465): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(465): error :    unix_error("Realloc error");
+csapp.cpp(465): error :                              ^
+csapp.cpp : error : In function ‘void* Calloc(size_t, size_t)’:
+csapp.cpp(474): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(474): error :    unix_error("Calloc error");
+csapp.cpp(474): error :                             ^
+csapp.cpp : error : In function ‘void Fclose(FILE*)’:
+csapp.cpp(489): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(489): error :    unix_error("Fclose error");
+csapp.cpp(489): error :                             ^
+csapp.cpp : error : In function ‘FILE* Fdopen(int, const char*)’:
+csapp.cpp(497): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(497): error :    unix_error("Fdopen error");
+csapp.cpp(497): error :                             ^
+csapp.cpp : error : In function ‘char* Fgets(char*, int, FILE*)’:
+csapp.cpp(507): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(507): error :    app_error("Fgets error");
+csapp.cpp(507): error :                           ^
+csapp.cpp : error : In function ‘FILE* Fopen(const char*, const char*)’:
+csapp.cpp(517): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(517): error :    unix_error("Fopen error");
+csapp.cpp(517): error :                            ^
+csapp.cpp : error : In function ‘void Fputs(const char*, FILE*)’:
+csapp.cpp(525): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(525): error :    unix_error("Fputs error");
+csapp.cpp(525): error :                            ^
+csapp.cpp : error : In function ‘size_t Fread(void*, size_t, size_t, FILE*)’:
+csapp.cpp(533): error : 27: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(533): error :    unix_error("Fread error");
+csapp.cpp(533): error :                            ^
+csapp.cpp : error : In function ‘void Fwrite(const void*, size_t, size_t, FILE*)’:
+csapp.cpp(540): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(540): error :    unix_error("Fwrite error");
+csapp.cpp(540): error :                             ^
+csapp.cpp : error : In function ‘int Socket(int, int, int)’:
+csapp.cpp(553): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(553): error :    unix_error("Socket error");
+csapp.cpp(553): error :                             ^
+csapp.cpp : error : In function ‘void Setsockopt(int, int, int, const void*, int)’:
+csapp.cpp(562): error : 32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(562): error :    unix_error("Setsockopt error");
+csapp.cpp(562): error :                                 ^
+csapp.cpp : error : In function ‘void Bind(int, sockaddr*, int)’:
+csapp.cpp(570): error : 26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(570): error :    unix_error("Bind error");
+csapp.cpp(570): error :                           ^
+csapp.cpp : error : In function ‘void Listen(int, int)’:
+csapp.cpp(578): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(578): error :    unix_error("Listen error");
+csapp.cpp(578): error :                             ^
+csapp.cpp : error : In function ‘int Accept(int, sockaddr*, socklen_t*)’:
+csapp.cpp(586): error : 28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(586): error :    unix_error("Accept error");
+csapp.cpp(586): error :                             ^
+csapp.cpp : error : In function ‘void Connect(int, sockaddr*, int)’:
+csapp.cpp(595): error : 29: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(595): error :    unix_error("Connect error");
+csapp.cpp(595): error :                              ^
+csapp.cpp : error : In function ‘void Getaddrinfo(const char*, const char*, const addrinfo*, addrinfo**)’:
+csapp.cpp(608): error : 36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(608): error :    gai_error(rc, "Getaddrinfo error");
+csapp.cpp(608): error :                                     ^
+csapp.cpp : error : In function ‘void Getnameinfo(const sockaddr*, socklen_t, char*, size_t, char*, size_t, int)’:
+csapp.cpp(619): error : 36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(619): error :    gai_error(rc, "Getnameinfo error");
+csapp.cpp(619): error :                                     ^
+csapp.cpp : error : In function ‘void Inet_ntop(int, const void*, char*, socklen_t)’:
+csapp.cpp(630): error : 31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(630): error :    unix_error("Inet_ntop error");
+csapp.cpp(630): error :                                ^
+csapp.cpp : error : In function ‘void Inet_pton(int, const char*, void*)’:
+csapp.cpp(639): error : 62: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+app_error("inet_pton error : error : invalid dotted-decimal address");
+app_error("inet_pton error : error :                                                               ^
+csapp.cpp(641): error : 31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(641): error :    unix_error("Inet_pton error");
+csapp.cpp(641): error :                                ^
+csapp.cpp : error : In function ‘hostent* Gethostbyname(const char*)’:
+csapp.cpp(657): error : 34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(657): error :    dns_error("Gethostbyname error");
+csapp.cpp(657): error :                                   ^
+csapp.cpp : error : In function ‘hostent* Gethostbyaddr(const char*, int, int)’:
+csapp.cpp(667): error : 34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(667): error :    dns_error("Gethostbyaddr error");
+csapp.cpp(667): error :                                   ^
+csapp.cpp : error : In function ‘void Pthread_create(pthread_t*, pthread_attr_t*, void* (*)(void*), void*)’:
+csapp.cpp(681): error : 41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(681): error :    posix_error(rc, "Pthread_create error");
+csapp.cpp(681): error :                                          ^
+csapp.cpp : error : In function ‘void Pthread_cancel(pthread_t)’:
+csapp.cpp(688): error : 41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(688): error :    posix_error(rc, "Pthread_cancel error");
+csapp.cpp(688): error :                                          ^
+csapp.cpp : error : In function ‘void Pthread_join(pthread_t, void**)’:
+csapp.cpp(695): error : 39: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(695): error :    posix_error(rc, "Pthread_join error");
+csapp.cpp(695): error :                                        ^
+csapp.cpp : error : In function ‘void Pthread_detach(pthread_t)’:
+csapp.cpp(703): error : 41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(703): error :    posix_error(rc, "Pthread_detach error");
+csapp.cpp(703): error :                                          ^
+csapp.cpp : error : In function ‘void Sem_init(sem_t*, int, unsigned int)’:
+csapp.cpp(726): error : 30: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(726): error :    unix_error("Sem_init error");
+csapp.cpp(726): error :                               ^
+csapp.cpp : error : In function ‘void P(sem_t*)’:
+csapp.cpp(732): error : 23: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(732): error :    unix_error("P error");
+csapp.cpp(732): error :                        ^
+csapp.cpp : error : In function ‘void V(sem_t*)’:
+csapp.cpp(738): error : 23: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(738): error :    unix_error("V error");
+csapp.cpp(738): error :                        ^
+csapp.cpp : error : In function ‘ssize_t Rio_readn(int, void*, size_t)’:
+csapp.cpp(906): error : 31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(906): error :    unix_error("Rio_readn error");
+csapp.cpp(906): error :                                ^
+csapp.cpp : error : In function ‘void Rio_writen(int, void*, size_t)’:
+csapp.cpp(913): error : 32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(913): error :    unix_error("Rio_writen error");
+csapp.cpp(913): error :                                 ^
+csapp.cpp : error : In function ‘ssize_t Rio_readnb(rio_t*, void*, size_t)’:
+csapp.cpp(926): error : 32: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(926): error :    unix_error("Rio_readnb error");
+csapp.cpp(926): error :                                 ^
+csapp.cpp : error : In function ‘ssize_t Rio_readlineb(rio_t*, void*, size_t)’:
+csapp.cpp(935): error : 35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(935): error :    unix_error("Rio_readlineb error");
+csapp.cpp(935): error :                                    ^
+csapp.cpp : error : In function ‘int Open_clientfd(char*, char*)’:
+csapp.cpp(1056): error : 35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(1056): error :    unix_error("Open_clientfd error");
+csapp.cpp(1056): error :                                    ^
+csapp.cpp : error : In function ‘int Open_listenfd(char*)’:
+csapp.cpp(1065): error : 35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+csapp.cpp(1065): error :    unix_error("Open_listenfd error");
+csapp.cpp(1065): error :                                    ^
+/tmp/ccIANNoB.o : error : In function `unix_error(char*)':
+csapp.cpp : error : (.text+0x0): multiple definition of `unix_error(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:33: first defined here
+/tmp/ccIANNoB.o : error : In function `posix_error(int, char*)':
+csapp.cpp : error : (.text+0x44): multiple definition of `posix_error(int, char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:40: first defined here
+/tmp/ccIANNoB.o : error : In function `gai_error(int, char*)':
+csapp.cpp : error : (.text+0x87): multiple definition of `gai_error(int, char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:46: first defined here
+/tmp/ccIANNoB.o : error : In function `app_error(char*)':
+csapp.cpp : error : (.text+0xca): multiple definition of `app_error(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:52: first defined here
+/tmp/ccIANNoB.o : error : In function `dns_error(char*)':
+csapp.cpp : error : (.text+0xfd): multiple definition of `dns_error(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:59: first defined here
+/tmp/ccIANNoB.o : error : In function `Fork()':
+csapp.cpp : error : (.text+0x130): multiple definition of `Fork()'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:71: first defined here
+/tmp/ccIANNoB.o : error : In function `Execve(char const*, char* const*, char* const*)':
+csapp.cpp : error : (.text+0x159): multiple definition of `Execve(char const*, char* const*, char* const*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:81: first defined here
+/tmp/ccIANNoB.o : error : In function `Wait(int*)':
+csapp.cpp : error : (.text+0x197): multiple definition of `Wait(int*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:88: first defined here
+/tmp/ccIANNoB.o : error : In function `Waitpid(int, int*, int)':
+csapp.cpp : error : (.text+0x1cb): multiple definition of `Waitpid(int, int*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:98: first defined here
+/tmp/ccIANNoB.o : error : In function `Kill(int, int)':
+csapp.cpp : error : (.text+0x20d): multiple definition of `Kill(int, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:108: first defined here
+/tmp/ccIANNoB.o : error : In function `Pause()':
+csapp.cpp : error : (.text+0x243): multiple definition of `Pause()'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:117: first defined here
+/tmp/ccIANNoB.o : error : In function `Sleep(unsigned int)':
+csapp.cpp : error : (.text+0x24f): multiple definition of `Sleep(unsigned int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:123: first defined here
+/tmp/ccIANNoB.o : error : In function `Alarm(unsigned int)':
+csapp.cpp : error : (.text+0x27f): multiple definition of `Alarm(unsigned int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:131: first defined here
+/tmp/ccIANNoB.o : error : In function `Setpgid(int, int)':
+csapp.cpp : error : (.text+0x296): multiple definition of `Setpgid(int, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:135: first defined here
+/tmp/ccIANNoB.o : error : In function `Getpgrp()':
+csapp.cpp : error : (.text+0x2cd): multiple definition of `Getpgrp()'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:143: first defined here
+/tmp/ccIANNoB.o : error : In function `Signal(int, void (*)(int))':
+csapp.cpp : error : (.text+0x2d8): multiple definition of `Signal(int, void (*)(int))'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:153: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigprocmask(int, __sigset_t const*, __sigset_t*)':
+csapp.cpp : error : (.text+0x353): multiple definition of `Sigprocmask(int, __sigset_t const*, __sigset_t*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:167: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigemptyset(__sigset_t*)':
+csapp.cpp : error : (.text+0x38f): multiple definition of `Sigemptyset(__sigset_t*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:174: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigfillset(__sigset_t*)':
+csapp.cpp : error : (.text+0x3bb): multiple definition of `Sigfillset(__sigset_t*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:181: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigaddset(__sigset_t*, int)':
+csapp.cpp : error : (.text+0x3e7): multiple definition of `Sigaddset(__sigset_t*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:188: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigdelset(__sigset_t*, int)':
+csapp.cpp : error : (.text+0x41b): multiple definition of `Sigdelset(__sigset_t*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:195: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigismember(__sigset_t const*, int)':
+csapp.cpp : error : (.text+0x44f): multiple definition of `Sigismember(__sigset_t const*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:202: first defined here
+/tmp/ccIANNoB.o : error : In function `Sigsuspend(__sigset_t const*)':
+csapp.cpp : error : (.text+0x48b): multiple definition of `Sigsuspend(__sigset_t const*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:210: first defined here
+/tmp/ccIANNoB.o : error : In function `sio_puts(char*)':
+csapp.cpp : error : (.text+0x641): multiple definition of `sio_puts(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:272: first defined here
+/tmp/ccIANNoB.o : error : In function `sio_putl(long)':
+csapp.cpp : error : (.text+0x66f): multiple definition of `sio_putl(long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:277: first defined here
+/tmp/ccIANNoB.o : error : In function `sio_error(char*)':
+csapp.cpp : error : (.text+0x6aa): multiple definition of `sio_error(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:285: first defined here
+/tmp/ccIANNoB.o : error : In function `Sio_putl(long)':
+csapp.cpp : error : (.text+0x6cc): multiple definition of `Sio_putl(long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:295: first defined here
+/tmp/ccIANNoB.o : error : In function `Sio_puts(char*)':
+csapp.cpp : error : (.text+0x704): multiple definition of `Sio_puts(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:304: first defined here
+/tmp/ccIANNoB.o : error : In function `Sio_error(char*)':
+csapp.cpp : error : (.text+0x73c): multiple definition of `Sio_error(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:313: first defined here
+/tmp/ccIANNoB.o : error : In function `Open(char const*, int, unsigned int)':
+csapp.cpp : error : (.text+0x756): multiple definition of `Open(char const*, int, unsigned int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:322: first defined here
+/tmp/ccIANNoB.o : error : In function `Read(int, void*, unsigned long)':
+csapp.cpp : error : (.text+0x79d): multiple definition of `Read(int, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:331: first defined here
+/tmp/ccIANNoB.o : error : In function `Write(int, void const*, unsigned long)':
+csapp.cpp : error : (.text+0x7e5): multiple definition of `Write(int, void const*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:340: first defined here
+/tmp/ccIANNoB.o : error : In function `Lseek(int, long, int)':
+csapp.cpp : error : (.text+0x82d): multiple definition of `Lseek(int, long, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:349: first defined here
+/tmp/ccIANNoB.o : error : In function `Close(int)':
+csapp.cpp : error : (.text+0x873): multiple definition of `Close(int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:358: first defined here
+/tmp/ccIANNoB.o : error : In function `Select(int, fd_set*, fd_set*, fd_set*, timeval*)':
+csapp.cpp : error : (.text+0x8a1): multiple definition of `Select(int, fd_set*, fd_set*, fd_set*, timeval*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:367: first defined here
+/tmp/ccIANNoB.o : error : In function `Dup2(int, int)':
+csapp.cpp : error : (.text+0x8f5): multiple definition of `Dup2(int, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:376: first defined here
+/tmp/ccIANNoB.o : error : In function `Stat(char const*, stat*)':
+csapp.cpp : error : (.text+0x92e): multiple definition of `Stat(char const*, stat*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:385: first defined here
+/tmp/ccIANNoB.o : error : In function `Fstat(int, stat*)':
+csapp.cpp : error : (.text+0x964): multiple definition of `Fstat(int, stat*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:391: first defined here
+/tmp/ccIANNoB.o : error : In function `Opendir(char const*)':
+csapp.cpp : error : (.text+0x997): multiple definition of `Opendir(char const*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:401: first defined here
+/tmp/ccIANNoB.o : error : In function `Readdir(__dirstream*)':
+csapp.cpp : error : (.text+0x9ca): multiple definition of `Readdir(__dirstream*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:410: first defined here
+/tmp/ccIANNoB.o : error : In function `Closedir(__dirstream*)':
+csapp.cpp : error : (.text+0xa13): multiple definition of `Closedir(__dirstream*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:421: first defined here
+/tmp/ccIANNoB.o : error : In function `Mmap(void*, unsigned long, int, int, int, long)':
+csapp.cpp : error : (.text+0xa47): multiple definition of `Mmap(void*, unsigned long, int, int, int, long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:433: first defined here
+/tmp/ccIANNoB.o : error : In function `Munmap(void*, unsigned long)':
+csapp.cpp : error : (.text+0xaa8): multiple definition of `Munmap(void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:442: first defined here
+/tmp/ccIANNoB.o : error : In function `Malloc(unsigned long)':
+csapp.cpp : error : (.text+0xade): multiple definition of `Malloc(unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:452: first defined here
+/tmp/ccIANNoB.o : error : In function `Realloc(void*, unsigned long)':
+csapp.cpp : error : (.text+0xb16): multiple definition of `Realloc(void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:461: first defined here
+/tmp/ccIANNoB.o : error : In function `Calloc(unsigned long, unsigned long)':
+csapp.cpp : error : (.text+0xb59): multiple definition of `Calloc(unsigned long, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:470: first defined here
+/tmp/ccIANNoB.o : error : In function `Free(void*)':
+csapp.cpp : error : (.text+0xb9c): multiple definition of `Free(void*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:479: first defined here
+/tmp/ccIANNoB.o : error : In function `Fclose(_IO_FILE*)':
+csapp.cpp : error : (.text+0xbb6): multiple definition of `Fclose(_IO_FILE*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:487: first defined here
+/tmp/ccIANNoB.o : error : In function `Fdopen(int, char const*)':
+csapp.cpp : error : (.text+0xbe3): multiple definition of `Fdopen(int, char const*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:493: first defined here
+/tmp/ccIANNoB.o : error : In function `Fgets(char*, int, _IO_FILE*)':
+csapp.cpp : error : (.text+0xc23): multiple definition of `Fgets(char*, int, _IO_FILE*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:503: first defined here
+/tmp/ccIANNoB.o : error : In function `Fopen(char const*, char const*)':
+csapp.cpp : error : (.text+0xc86): multiple definition of `Fopen(char const*, char const*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:513: first defined here
+/tmp/ccIANNoB.o : error : In function `Fputs(char const*, _IO_FILE*)':
+csapp.cpp : error : (.text+0xcc9): multiple definition of `Fputs(char const*, _IO_FILE*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:523: first defined here
+/tmp/ccIANNoB.o : error : In function `Fread(void*, unsigned long, unsigned long, _IO_FILE*)':
+csapp.cpp : error : (.text+0xd02): multiple definition of `Fread(void*, unsigned long, unsigned long, _IO_FILE*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:529: first defined here
+/tmp/ccIANNoB.o : error : In function `Fwrite(void const*, unsigned long, unsigned long, _IO_FILE*)':
+csapp.cpp : error : (.text+0xd70): multiple definition of `Fwrite(void const*, unsigned long, unsigned long, _IO_FILE*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:538: first defined here
+/tmp/ccIANNoB.o : error : In function `Socket(int, int, int)':
+csapp.cpp : error : (.text+0xdb7): multiple definition of `Socket(int, int, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:549: first defined here
+/tmp/ccIANNoB.o : error : In function `Setsockopt(int, int, int, void const*, int)':
+csapp.cpp : error : (.text+0xdf6): multiple definition of `Setsockopt(int, int, int, void const*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:558: first defined here
+/tmp/ccIANNoB.o : error : In function `Bind(int, sockaddr*, int)':
+csapp.cpp : error : (.text+0xe42): multiple definition of `Bind(int, sockaddr*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:566: first defined here
+/tmp/ccIANNoB.o : error : In function `Listen(int, int)':
+csapp.cpp : error : (.text+0xe81): multiple definition of `Listen(int, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:574: first defined here
+/tmp/ccIANNoB.o : error : In function `Accept(int, sockaddr*, unsigned int*)':
+csapp.cpp : error : (.text+0xeb7): multiple definition of `Accept(int, sockaddr*, unsigned int*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:582: first defined here
+/tmp/ccIANNoB.o : error : In function `Connect(int, sockaddr*, int)':
+csapp.cpp : error : (.text+0xefb): multiple definition of `Connect(int, sockaddr*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:591: first defined here
+/tmp/ccIANNoB.o : error : In function `Getaddrinfo(char const*, char const*, addrinfo const*, addrinfo**)':
+csapp.cpp : error : (.text+0xf3a): multiple definition of `Getaddrinfo(char const*, char const*, addrinfo const*, addrinfo**)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:604: first defined here
+/tmp/ccIANNoB.o : error : In function `Getnameinfo(sockaddr const*, unsigned int, char*, unsigned long, char*, unsigned long, int)':
+csapp.cpp : error : (.text+0xf89): multiple definition of `Getnameinfo(sockaddr const*, unsigned int, char*, unsigned long, char*, unsigned long, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:614: first defined here
+/tmp/ccIANNoB.o : error : In function `Freeaddrinfo(addrinfo*)':
+csapp.cpp : error : (.text+0xff1): multiple definition of `Freeaddrinfo(addrinfo*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:623: first defined here
+/tmp/ccIANNoB.o : error : In function `Inet_ntop(int, void const*, char*, unsigned int)':
+csapp.cpp : error : (.text+0x100b): multiple definition of `Inet_ntop(int, void const*, char*, unsigned int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:628: first defined here
+/tmp/ccIANNoB.o : error : In function `Inet_pton(int, char const*, void*)':
+csapp.cpp : error : (.text+0x104c): multiple definition of `Inet_pton(int, char const*, void*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:634: first defined here
+/tmp/ccIANNoB.o : error : In function `Gethostbyname(char const*)':
+csapp.cpp : error : (.text+0x109b): multiple definition of `Gethostbyname(char const*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:653: first defined here
+/tmp/ccIANNoB.o : error : In function `Gethostbyaddr(char const*, int, int)':
+csapp.cpp : error : (.text+0x10d3): multiple definition of `Gethostbyaddr(char const*, int, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:663: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_create(unsigned long*, pthread_attr_t*, void* (*)(void*), void*)':
+csapp.cpp : error : (.text+0x1119): multiple definition of `Pthread_create(unsigned long*, pthread_attr_t*, void* (*)(void*), void*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:677: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_cancel(unsigned long)':
+csapp.cpp : error : (.text+0x1168): multiple definition of `Pthread_cancel(unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:684: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_join(unsigned long, void**)':
+csapp.cpp : error : (.text+0x119f): multiple definition of `Pthread_join(unsigned long, void**)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:691: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_detach(unsigned long)':
+csapp.cpp : error : (.text+0x11e1): multiple definition of `Pthread_detach(unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:699: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_exit(void*)':
+csapp.cpp : error : (.text+0x1218): multiple definition of `Pthread_exit(void*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:707: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_self()':
+csapp.cpp : error : (.text+0x1230): multiple definition of `Pthread_self()'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:711: first defined here
+/tmp/ccIANNoB.o : error : In function `Pthread_once(int*, void (*)())':
+csapp.cpp : error : (.text+0x123b): multiple definition of `Pthread_once(int*, void (*)())'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:715: first defined here
+/tmp/ccIANNoB.o : error : In function `Sem_init(sem_t*, int, unsigned int)':
+csapp.cpp : error : (.text+0x1260): multiple definition of `Sem_init(sem_t*, int, unsigned int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:724: first defined here
+/tmp/ccIANNoB.o : error : In function `P(sem_t*)':
+csapp.cpp : error : (.text+0x1299): multiple definition of `P(sem_t*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:730: first defined here
+/tmp/ccIANNoB.o : error : In function `V(sem_t*)':
+csapp.cpp : error : (.text+0x12c4): multiple definition of `V(sem_t*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:736: first defined here
+/tmp/ccIANNoB.o : error : In function `rio_readn(int, void*, unsigned long)':
+csapp.cpp : error : (.text+0x12ef): multiple definition of `rio_readn(int, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:750: first defined here
+/tmp/ccIANNoB.o : error : In function `rio_writen(int, void*, unsigned long)':
+csapp.cpp : error : (.text+0x1388): multiple definition of `rio_writen(int, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:776: first defined here
+/tmp/ccIANNoB.o : error : In function `rio_readinitb(rio_t*, int)':
+csapp.cpp : error : (.text+0x150c): multiple definition of `rio_readinitb(rio_t*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:838: first defined here
+/tmp/ccIANNoB.o : error : In function `rio_readnb(rio_t*, void*, unsigned long)':
+csapp.cpp : error : (.text+0x153d): multiple definition of `rio_readnb(rio_t*, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:850: first defined here
+/tmp/ccIANNoB.o : error : In function `rio_readlineb(rio_t*, void*, unsigned long)':
+csapp.cpp : error : (.text+0x15c3): multiple definition of `rio_readlineb(rio_t*, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:872: first defined here
+/tmp/ccIANNoB.o : error : In function `Rio_readn(int, void*, unsigned long)':
+csapp.cpp : error : (.text+0x166c): multiple definition of `Rio_readn(int, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:902: first defined here
+/tmp/ccIANNoB.o : error : In function `Rio_writen(int, void*, unsigned long)':
+csapp.cpp : error : (.text+0x16b4): multiple definition of `Rio_writen(int, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:911: first defined here
+/tmp/ccIANNoB.o : error : In function `Rio_readinitb(rio_t*, int)':
+csapp.cpp : error : (.text+0x16f3): multiple definition of `Rio_readinitb(rio_t*, int)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:917: first defined here
+/tmp/ccIANNoB.o : error : In function `Rio_readnb(rio_t*, void*, unsigned long)':
+csapp.cpp : error : (.text+0x1715): multiple definition of `Rio_readnb(rio_t*, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:922: first defined here
+/tmp/ccIANNoB.o : error : In function `Rio_readlineb(rio_t*, void*, unsigned long)':
+csapp.cpp : error : (.text+0x1760): multiple definition of `Rio_readlineb(rio_t*, void*, unsigned long)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:931: first defined here
+/tmp/ccIANNoB.o : error : In function `open_clientfd(char*, char*)':
+csapp.cpp : error : (.text+0x17ab): multiple definition of `open_clientfd(char*, char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:952: first defined here
+/tmp/ccIANNoB.o : error : In function `open_listenfd(char*)':
+csapp.cpp : error : (.text+0x1923): multiple definition of `open_listenfd(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:1000: first defined here
+/tmp/ccIANNoB.o : error : In function `Open_clientfd(char*, char*)':
+csapp.cpp : error : (.text+0x1ae2): multiple definition of `Open_clientfd(char*, char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:1052: first defined here
+/tmp/ccIANNoB.o : error : In function `Open_listenfd(char*)':
+csapp.cpp : error : (.text+0x1b21): multiple definition of `Open_listenfd(char*)'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : /root/projects/code25/csapp.cpp:1061: first defined here
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `Pthread_create(unsigned long*, pthread_attr_t*, void* (*)(void*), void*)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(680): error : undefined reference to `pthread_create'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `Pthread_cancel(unsigned long)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(687): error : undefined reference to `pthread_cancel'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `Pthread_join(unsigned long, void**)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(694): error : undefined reference to `pthread_join'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `Pthread_detach(unsigned long)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(702): error : undefined reference to `pthread_detach'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `Pthread_once(int*, void (*)())':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(716): error : undefined reference to `pthread_once'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `Sem_init(sem_t*, int, unsigned int)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(725): error : undefined reference to `sem_init'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `P(sem_t*)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(731): error : undefined reference to `sem_wait'
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.o : error : In function `V(sem_t*)':
+F:\Project\Linux\CSAPP\Chapter8\code25\code25\csapp.cpp(737): error : undefined reference to `sem_post'
+/tmp/ccIANNoB.o : error : In function `Pthread_create(unsigned long*, pthread_attr_t*, void* (*)(void*), void*)':
+csapp.cpp : error : (.text+0x1145): undefined reference to `pthread_create'
+/tmp/ccIANNoB.o : error : In function `Pthread_cancel(unsigned long)':
+csapp.cpp : error : (.text+0x117c): undefined reference to `pthread_cancel'
+/tmp/ccIANNoB.o : error : In function `Pthread_join(unsigned long, void**)':
+csapp.cpp : error : (.text+0x11be): undefined reference to `pthread_join'
+/tmp/ccIANNoB.o : error : In function `Pthread_detach(unsigned long)':
+csapp.cpp : error : (.text+0x11f5): undefined reference to `pthread_detach'
+/tmp/ccIANNoB.o : error : In function `Pthread_once(int*, void (*)())':
+csapp.cpp : error : (.text+0x125a): undefined reference to `pthread_once'
+/tmp/ccIANNoB.o : error : In function `Sem_init(sem_t*, int, unsigned int)':
+csapp.cpp : error : (.text+0x1282): undefined reference to `sem_init'
+/tmp/ccIANNoB.o : error : In function `P(sem_t*)':
+csapp.cpp : error : (.text+0x12ad): undefined reference to `sem_wait'
+/tmp/ccIANNoB.o : error : In function `V(sem_t*)':
+csapp.cpp : error : (.text+0x12d8): undefined reference to `sem_post'
+collect2 : error : ld returned 1 exit status
